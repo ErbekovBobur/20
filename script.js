@@ -162,3 +162,12 @@ let str = 'объектно-ориентированное программир�
 // console.log([...string]);
 // console.log(Array.from(string));
 // console.log(string.split(''));
+
+let task = '45 / 3';
+
+function calc(str) {
+    let firstnumber = str.match(/\d*(?!\d)/g)[0];
+    console.log(firstnumber);
+}
+
+console.log(calc(task));
