@@ -163,11 +163,33 @@ let str = 'объектно-ориентированное программир�
 // console.log(Array.from(string));
 // console.log(string.split(''));
 
-let task = '45 / 3';
 
-function calc(str) {
-    let firstnumber = str.match(/\d*(?!\d)/g)[0];
-    console.log(firstnumber);
+// --- 7 --------------------------------------------------------------------
+
+
+// let task = ' 45 * 13 ';
+
+// function calc(str) {
+//     let firstnumber = Number(str.match(/\d+(?=\D)/g)[0]);
+//     console.log(firstnumber);
+//     let secondnumber = Number(str.match(/\d+(?=\D||$)/g)[1]);
+//     console.log(secondnumber);
+//     let operator = str.match(/[\+\-\*\/]/)[0];
+//     let result = 0;
+//     switch (operator) {
+//         case '+': result = firstnumber + secondnumber; break;
+//         case '-': result = firstnumber - secondnumber; break;
+//         case '*': result = firstnumber * secondnumber; break;
+//         case '/': result = firstnumber / secondnumber; break;
+//         default: break;
+//     }
+//     return result;
+// }
+
+// console.log(calc(task));
+
+let url = 'https://itstep.org/ua/about'
+
+function getInfoUrl(str) {
+    
 }
-
-console.log(calc(task));
