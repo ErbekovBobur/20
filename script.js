@@ -188,8 +188,19 @@ let str = 'объектно-ориентированное программир�
 
 // console.log(calc(task));
 
-let url = 'https://itstep.org/ua/about'
 
-function getInfoUrl(str) {
-    
-}
+// --- 8 --------------------------------------------------------------------
+
+
+// let url = 'http://itstep.org/ua/about/'
+
+// function getInfoUrl(str) {
+//     let regprotocol =`Протокоол: ${str.match(/^([a-zA-Z]+)(?=:\/\/)/)[0]}\n`;
+//     let domen = `Домен: ${str.match(/(https?)?([-\w]+\.\w+\.*\w*)+/)[0]}\n`;
+//     let path = `Путь: ${str.match(/[-\w]+\.\w+\.*\w*\/([-\w]+(\/*[-\w])*)/)[1]}\n`;
+//     return regprotocol + domen + path;
+
+
+// }
+
+// console.log(getInfoUrl(url));
