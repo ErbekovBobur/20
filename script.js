@@ -215,3 +215,20 @@
 // }
 
 // console.log(changeSeparator(str,'-'));
+
+
+// --- 10 --------------------------------------------------------------------
+
+
+// let str = 'Today is %1 %2.%3.%4 :- %5';
+
+// function getStr(str){
+//     let temp = str.match(/(?<=%)\d+/g);
+//     let result = str;
+//     for (let key of temp) {
+//         result = result.replace('%'+key , arguments[key])
+//     }
+//     return result;
+// }
+
+// console.log(getStr(str, 'Monday', 10, 8, 2020, 78));
